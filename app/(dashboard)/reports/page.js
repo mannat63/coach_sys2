@@ -111,7 +111,7 @@ export default function ReportsPage() {
 
   if (!role) return <div className="p-8 text-gray-500 font-medium">Loading...</div>;
 
-  const SCHOOL_NAME = "Alpha School";
+  const SCHOOL_NAME = "Intellogy Coachings";
 
   return (
     <div className="max-w-7xl mx-auto space-y-6">

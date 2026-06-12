@@ -7,19 +7,19 @@ const roles = [
   {
     label: "Student",
     avatar: "/avatar-student.png",
-    gradient: "linear-gradient(135deg, #DA70D6, #9B59B6)",
+    gradient: "linear-gradient(135deg, #FFD700, #B8860B)",
     desc: "Access your classes, mock tests, and performance analytics.",
   },
   {
     label: "Teacher",
     avatar: "/avatar-teacher.png",
-    gradient: "linear-gradient(135deg, #5E4D75, #8E7BAF)",
+    gradient: "linear-gradient(135deg, #444, #666)",
     desc: "Manage study materials, track section progress, and analyze results.",
   },
   {
     label: "Administrator",
     avatar: "/avatar-admin.png",
-    gradient: "linear-gradient(135deg, #E8A0BF, #DA70D6)",
+    gradient: "linear-gradient(135deg, #D4AF37, #FFD700)",
     desc: "Complete institutional oversight, fees, and operational reports.",
   },
 ];
@@ -113,10 +113,10 @@ export default function LoginClient() {
         {/* Brand */}
         <div className="login-left-brand">
           <div className="login-left-logo">
-            <img src="/logo.png" alt="Alpha School" />
+            <img src="/logo.png" alt="Intellogy Coachings" />
           </div>
           <div className="login-left-text">
-            <div className="login-left-name">Alpha School</div>
+            <div className="login-left-name">Intellogy Coachings</div>
             <div className="login-left-sub">Academic Excellence</div>
           </div>
         </div>
@@ -157,10 +157,10 @@ export default function LoginClient() {
         {/* Mobile top branding — only visible on mobile */}
         <div className="login-mobile-top-brand">
           <div className="login-mobile-top-logo">
-            <img src="/logo.png" alt="Alpha School" />
+            <img src="/logo.png" alt="Intellogy Coachings" />
           </div>
           <div>
-            <div className="login-mobile-top-name">Alpha School</div>
+            <div className="login-mobile-top-name">Intellogy Coachings</div>
             <div className="login-mobile-top-sub">Academic Excellence</div>
           </div>
         </div>
@@ -176,7 +176,7 @@ export default function LoginClient() {
             <div
               className="login-avatar-ring"
               style={{
-                background: fade ? current.gradient : "linear-gradient(135deg, #4B3D6020, #DA70D620)",
+                background: fade ? current.gradient : "linear-gradient(135deg, rgba(26,26,26,0.2), rgba(212,175,55,0.2))",
               }}
             >
               <div className="login-avatar-ring-inner">
@@ -269,7 +269,7 @@ export default function LoginClient() {
 
         {/* Footer */}
         <div className="login-footer">
-          <span>&copy; {new Date().getFullYear()} Alpha School</span>
+          <span>&copy; {new Date().getFullYear()} Intellogy Coachings</span>
           <span className="login-footer-dot">&middot;</span>
           <span>Privacy Policy</span>
           <span className="login-footer-dot">&middot;</span>
@@ -279,7 +279,7 @@ export default function LoginClient() {
 
       {/* ─── Help Center ─── */}
       <a
-        href="https://wa.me/919509728788?text=Hi%2C%20I%20need%20help%20with%20Alpha%20School%20System"
+        href="https://wa.me/919509728788?text=Hi%2C%20I%20need%20help%20with%20Intellogy%20Coachings%20System"
         target="_blank"
         rel="noopener noreferrer"
         className="login-help"

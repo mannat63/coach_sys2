@@ -60,7 +60,7 @@ export default function OnboardPage() {
           </div>
           <div>
             <h1 className="text-xl font-bold text-gray-900 leading-tight">Welcome!</h1>
-            <p className="text-xs text-gray-400 font-medium">Alpha School Platform</p>
+            <p className="text-xs text-gray-400 font-medium">Intellogy Coachings Platform</p>
           </div>
         </div>
         
